@@ -3,3 +3,5 @@ python_telegram_bot==5.3.1
 APScheduler==3.3.1
 beautifulsoup4==4.6.0
 telegram==0.0.1
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
